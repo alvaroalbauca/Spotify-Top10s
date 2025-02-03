@@ -2,7 +2,6 @@
 title: "Ejercicio práctico Rmarkdown"
 author:
     - names: "María Hurtado de Mendoza"
-
 date: "`r Sys.Date()`" 
 output: 
     distill::distill_article:
@@ -60,3 +59,13 @@ plot(dur ~ year, data = data)
 abline(lm(dur ~ year, data = data))
 
 ```
+## Discusión del gráfico
+
+El gráfico ilustra la relación entre la duración (`dur`) y el año (`year`). Cada punto representa un dato individual en la serie temporal entre 2010 y 2018. 
+
+Podemos observar que:
+- La mayoría de los valores de duración se concentran en un rango entre 150 y 250.
+- Existen algunos valores atípicos por encima de 300.
+- La tendencia general (línea de regresión) indica una leve disminución de la duración a lo largo de los años, aunque esta disminución no parece ser significativa visualmente.
+
+Este análisis puede servir para identificar patrones temporales en los datos de duración.
