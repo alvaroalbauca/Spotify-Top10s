@@ -1,2 +1,8 @@
 # Spotify-Top10s
-este curso es para la universidad de cádiz y es bastante complejo.
+Spotify-Top10s 🎵
+Final project for the University of Cádiz analyzing Spotify's Top 10 songs.
+
+📂 Structure
+Code/ → R scripts and analysis (.Rmd).
+Data/ → Dataset (top10s.csv).
+Plots/ → Generated visualizations.
