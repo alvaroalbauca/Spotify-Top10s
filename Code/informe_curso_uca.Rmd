@@ -51,7 +51,7 @@ data %>% dplyr::count(top.genre) %>% arrange(desc(n)) %>% head()
 
 ```
 
-## Tendencia de la duración de los hits
+## Tendencia de la duración de los hits (código para incluir el gráfico)
 
 ```{r duration_trend, fig.width=8, fig.height=6}
 
