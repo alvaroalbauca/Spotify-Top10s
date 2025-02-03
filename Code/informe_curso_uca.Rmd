@@ -12,6 +12,7 @@ output:
         css: styles.css         
 editor_options: 
   chunk_output_type: console
+doi: 10.5281/zenodo.14796531.svg
 ---
 
 ```{r setup, include = FALSE}
